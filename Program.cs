@@ -21,6 +21,7 @@ namespace WEBAPPDEMO
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    Console.WriteLine("neki");
                 });
     }
 }
